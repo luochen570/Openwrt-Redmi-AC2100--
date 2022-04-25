@@ -7,11 +7,7 @@ src-git telephony https://git.openwrt.org/feed/telephony.git
 #src-git oldpackages http://git.openwrt.org/packages.git
 #src-link custom /usr/src/openwrt/custom-feed
 
-#除了 helloword 还可以选择其他插件
-# openwrt 常用软件包，包含passwall、ssr plus
-src-git small https://github.com/kenzok8/small
+#src-git small https://github.com/kenzok8/small 
 src-git kenzo https://github.com/kenzok8/openwrt-packages
-#HelloWorld
-# src-git helloworld https://github.com/fw876/helloworld
-# passwall 基本依赖 
-# src-git passwall https://github.com/xiaorouji/openwrt-passwall
+src-git helloworld https://github.com/fw876/helloworld 
+src-git passwall https://github.com/xiaorouji/openwrt-passwall
